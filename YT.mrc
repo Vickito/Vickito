@@ -1,5 +1,5 @@
 ; ====== Alias
-alias -l ytkey return AIzaSyDpG6a-np-37K9NvURUlx54odAI_lR6Czo
+alias -l ytkey return token--de--google--api
 alias testYT { var %a testyt. $+ $ticks | sockopen -e %a www.googleapis.com 443 | sockmark %a $+($1,$chr(9),$2,$chr(9),$3) }
 ;--- 1=SOCK 2=posicion 3=valor
 alias -l marca { sockmark $1 $addtok($sock($1).mark,$3-,9) }
